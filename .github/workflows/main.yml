@@ -31,4 +31,4 @@ jobs:
         run: npm install -global surge
         
       - name: Deploy to Surge
-        run: surge ./build thinkable-grain.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build outstanding-rings.surge.sh --token ${{secrets.SURGE_TOKEN}}
